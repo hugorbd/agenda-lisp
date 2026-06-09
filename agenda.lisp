@@ -25,7 +25,7 @@
   )
 )
 
-; Função principal: inclui nome+telefone na agenda
+; Função inclui nome+telefone na agenda
 (defun INCLUIR (AGENDA CONTATO)
   (cond
     ((eq (BUSCAR AGENDA (car CONTATO)) NIL)
