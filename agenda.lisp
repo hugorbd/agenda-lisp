@@ -33,3 +33,11 @@
     (t (ATUALIZAR-CONTATO AGENDA (car CONTATO) (car (cdr CONTATO))))
   )
 )
+
+; Retorna os telefones de um contato dado o nome
+(defun TELEFONES (AGENDA NOME)
+  (cond
+    ((eq (BUSCAR AGENDA NOME) NIL) 'INEXISTENTE)
+    (t (cdr (BUSCAR AGENDA NOME)))
+  )
+)
