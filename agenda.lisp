@@ -1,3 +1,5 @@
+(defvar AGENDA NIL)
+
 ; Busca um contato pelo nome na agenda
 (defun BUSCAR (AGENDA NOME)
   (cond
